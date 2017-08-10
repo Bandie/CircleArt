@@ -158,15 +158,16 @@ public class CircleArtGUI extends Application {
         root.addEventHandler(MouseEvent.MOUSE_MOVED, (MouseEvent t) -> {
 
             if (P.isOn()) {
-                double x = t.getSceneX();
-                double y = t.getSceneY();
-                drawPane.getChildren().add(new Circle(x, y,
-                        P.getSize(x, y),
-                        P.getColor(x, y)
-                )
-                );
+                draw(t, drawPane);
             }
         });
+        
+        root.setOnMouseClicked(eh -> {
+        
+            draw(eh, drawPane);
+        
+        });
+        
 
         Scene scene = new Scene(root);
 
@@ -200,6 +201,16 @@ public class CircleArtGUI extends Application {
 
     }
 
+    private void draw(MouseEvent t, Pane drawPane){
+        double x = t.getSceneX();
+                double y = t.getSceneY();
+                drawPane.getChildren().add(new Circle(x, y,
+                        P.getSize(x, y),
+                        P.getColor(x, y)
+                )
+                );
+    }
+    
     // Fullscreen toggle
     private void toggleFullscreen(Stage stage) {
         stage.setFullScreen(!stage.isFullScreen());
