@@ -3,6 +3,9 @@
 
 Get the newest build [here](https://github.com/Bandie/CircleArt/raw/master/dist/CircleArt.jar).
 
+## OMG look
+![Screenshot of CircleArt](/images/Screenshot.png)
+
 ## Troubleshooting
 
 - Q: Error: Could not find or load main class org.bandie.circleart.CircleArt
