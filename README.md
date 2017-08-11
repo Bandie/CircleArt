@@ -1,5 +1,5 @@
 # CircleArt
-## A little psychedelic art program running with JavaFX
+## A little psychedelic art program running with [JavaFX](https://www.java.com/inc/BrowserRedirect1.jsp)
 
 Get the newest build [here](https://github.com/Bandie/CircleArt/raw/master/dist/CircleArt.jar).
 
