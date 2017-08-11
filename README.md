@@ -9,5 +9,5 @@ Get the newest build [here](https://github.com/Bandie/CircleArt/raw/master/dist/
 ## Troubleshooting
 
 - Q: Error: Could not find or load main class org.bandie.circleart.CircleArt
-- A: You need JavaFX. (Yes, Oracle stuff atm. Sadly.)
+- A: You need JavaFX. (Yes, [Oracle stuff](https://www.java.com/inc/BrowserRedirect1.jsp) atm. Sadly.)
 
