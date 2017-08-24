@@ -9,5 +9,8 @@ Get the newest build/program [here](https://github.com/Bandie/CircleArt/raw/mast
 ## Troubleshooting
 
 - Q: Error: Could not find or load main class org.bandie.circleart.CircleArt
-- A: You need JavaFX. (Yes, [Oracle stuff](https://www.java.com/inc/BrowserRedirect1.jsp) atm. Sadly.)
+  - A: You need JavaFX. (Yes, [Oracle stuff](https://www.java.com/inc/BrowserRedirect1.jsp) atm. Sadly.)
+
+- Q: Why?
+  - A: I had to learn JavaFX because the university made me to. So this is a byproduct which makes fun.
 
